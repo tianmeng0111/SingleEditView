@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SingleEditView">
+        <attr name="text_size" format="dimension"></attr>
+        <attr name="text_color" format="color"></attr>
+        <attr name="pwd_style" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="star" value="2"/>
+            <enum name="pound" value="3"/>
+        </attr>
+        <attr name="text_icon" format="reference"></attr>
+
+        <attr name="border_width" format="dimension"></attr>
+        <attr name="border_radius" format="dimension"></attr>
+        <attr name="border_color" format="color"></attr>
+
+        <attr name="edit_count" format="integer"></attr>
+
+    </declare-styleable>
+</resources>
